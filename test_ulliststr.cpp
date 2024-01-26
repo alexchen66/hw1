@@ -9,5 +9,8 @@
 
 int main(int argc, char* argv[])
 {
+  ULListStr list;
 
+	list.push_front("fred");
+	list.push_back("bob");
 }

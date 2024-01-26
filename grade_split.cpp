@@ -178,7 +178,6 @@ TEST(Split, TwoNumbers)
 	Node* evens = nullptr;
 
 	split(list, odds, evens);
-
 	EXPECT_TRUE(checkContent(odds, {7}));
 	EXPECT_TRUE(checkContent(evens, {8}));
 
